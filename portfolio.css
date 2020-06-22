@@ -20,11 +20,7 @@ header{
     text-align: center;
 }
 
-.warterfall {
-    margin: 275px auto 10px 30px;
-  }
-
-  .wave {
+.wave {
     position: relative;
     opacity: 0;
     top: 0;
@@ -48,7 +44,7 @@ header{
     animation-iteration-count: infinite;
   }
   
-  .wave:after {
+.wave:after {
     content: "";
     position: absolute;
     opacity: 0;
@@ -71,7 +67,7 @@ header{
     animation-iteration-count: infinite;
   }
   
-  @keyframes ripple {
+@keyframes ripple {
       from {
         opacity: 1;
       }
@@ -84,11 +80,11 @@ header{
       }
   }
   
-  @keyframes ripple-2 {
-      0% {
+@keyframes ripple-2 {
+    0% {
         opacity: 1;
       }
-      50% {
+    50% {
         opacity: 0;
       }
     100% {
@@ -98,13 +94,13 @@ header{
       top: 100px;
       left: 200px;
     }
-  }
+}
   
-  @keyframes drip {
-      to {
-        top: 190px;
-      }
-  }
+@keyframes drip {
+    to {
+    top: 190px;
+    }
+}
 .portfolio{
     display:inline-block;
     padding: 0.3em 0.5em;
