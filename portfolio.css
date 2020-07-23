@@ -133,6 +133,7 @@ footer{
     height: 100px;
     background: rgb(234, 226, 226);
     font-size: 15px;
+    z-index: 100;
 }
 ul{
     list-style: none;
@@ -195,9 +196,6 @@ input[type="checkbox"] {
         position: relative;
         width: 100vw;
         height: 100vh;
-    }
-    .wave{
-        display: inline
     }
     .open,
     .close{
