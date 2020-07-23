@@ -196,6 +196,9 @@ input[type="checkbox"] {
         width: 100vw;
         height: 100vh;
     }
+    .wave{
+        display: inline
+    }
     .open,
     .close{
         display: block;
