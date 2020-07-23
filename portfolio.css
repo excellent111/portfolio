@@ -192,37 +192,3 @@ input[type="checkbox"] {
     position: fixed;
     right: -100vw;
 }
-@media screen and (max-width: 360px) {
-    header{
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-    }
-    .open,
-    .close{
-        display: block;
-    }
-    aside{
-        position: none;
-        bottom: 200px;
-        right: 5%; 
-        transition: all 0.1s;
-        width: 100px;
-        background:  palegreen;
-        border-radius: 25%;
-        font-size: 11px;
-        z-index: 2;
-    }
-    footer{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-    }
-    input[type="checkbox"]:checked ~ aside {
-        position: fixed;
-        left: 30px;
-    }
-    input[type="checkbox"]:checked ~ .back {
-        position: none;
-    }
-}
