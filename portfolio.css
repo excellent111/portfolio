@@ -127,6 +127,7 @@ aside{
 }
 footer{
     position: fixed;
+    left: 0;
     bottom: 0;
     padding: 0;
     width: 100vw;
@@ -211,6 +212,11 @@ input[type="checkbox"] {
         border-radius: 25%;
         font-size: 11px;
         z-index: 2;
+    }
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
     }
     input[type="checkbox"]:checked ~ aside {
         position: fixed;
