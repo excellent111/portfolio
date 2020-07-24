@@ -95,13 +95,13 @@ header{
       height: 100px;
       border-width: 1px;
       top: 50px;
-      left: 50px;
+      left: -50px;
     }
 }
   
 @keyframes drip {
     to {
-    top: 190px;
+    top: 100px;
     }
 }
 .portfolio{
