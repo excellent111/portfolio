@@ -228,4 +228,7 @@ input[type="checkbox"] {
     footer {
         position: relative;
     }
+    aside {
+     position: none;
+    }
   }
