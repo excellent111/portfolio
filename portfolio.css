@@ -192,3 +192,9 @@ input[type="checkbox"] {
     position: fixed;
     right: -100vw;
 }
+
+@media (max-width: 450px) {
+    footer {
+        position: relative;
+    }
+  }
