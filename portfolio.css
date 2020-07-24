@@ -154,6 +154,7 @@ div{
     margin-bottom: 0;
 }
 nav{
+    width: 100vw;
     font-size: 14px;
     border-left: purple;
     color: rgb(72, 19, 72);
@@ -224,11 +225,4 @@ input[type="checkbox"] {
         position: none;
     }
 }
-@media (max-width: 450px) {
-    footer {
-        position: relative;
-    }
-    aside {
-        display: none;
-    }
-  }
+
