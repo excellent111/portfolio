@@ -213,11 +213,6 @@ input[type="checkbox"] {
         font-size: 11px;
         z-index: 2;
     }
-    footer{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-    }
     input[type="checkbox"]:checked ~ aside {
         position: fixed;
         left: 30px;
