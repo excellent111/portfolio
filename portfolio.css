@@ -75,10 +75,10 @@ header{
         opacity: 1;
       }
       to {
-        width: 500px;
-        height: 250px;
+        width: 350px;
+        height: 150px;
         border-width: 1px;
-        top: -100px;
+        top: 100px;
         opacity: 0;
       }
   }
