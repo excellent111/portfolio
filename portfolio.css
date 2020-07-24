@@ -72,8 +72,8 @@ header{
         opacity: 1;
       }
       to {
-        width: 600px;
-        height: 300px;
+        width: 400px;
+        height: 200px;
         border-width: 1px;
         top: -100px;
         opacity: 0;
