@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+*{
+     box-sizing: border-box;
+}
+
 body{
     background-color:  rgb(162, 241, 215);
     margin: 0;
@@ -8,7 +12,6 @@ body{
 header{
     margin: 0;
     padding: 30px;
-    box-sizing: border-box;
     background: mediumturquoise;
     background-image: url(https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_640.jpg);
     background-image: no-repeat;
@@ -72,8 +75,8 @@ header{
         opacity: 1;
       }
       to {
-        width: 400px;
-        height: 200px;
+        width: 500px;
+        height: 250px;
         border-width: 1px;
         top: -100px;
         opacity: 0;
